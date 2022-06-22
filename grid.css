@@ -39,9 +39,7 @@ body{
  main{
      display: grid;
      grid-template-areas: 
-     /* "a a b"
-     "c d d"
-     "c e e" */
+    
      "a a b"
      "a a b"
      "a a b"
@@ -92,21 +90,51 @@ body{
 
  @media screen and (max-width: 800px){ 
 
+     
+          .topnav { 
+           justify-content: center;
+     
+         }
+          .topnav a{ 
+             justify-content: center;
+         }
+          main{ 
+             flex-direction: row;
+             justify-content: center;
+         }
  }
      
  
+  @media screen and (max-width:550px){
 
-     .topnav { 
-      justify-content: center;
+    
+ main{
+    display: grid;
+    grid-template-areas: 
+   
+    "a  "
+    "a  "
+    "b"
+    "b"
+    "c"
+    "c"
+     "d"
+     "d"
+     "e"
+     "e"
+    
+    ;
+    gap: 1rem;
+   /* margin: auto; */
+    width: 100%; 
 
-    }
-     .topnav a{ 
-        justify-content: center;
-    }
-     main{ 
-        flex-direction: row;
-        justify-content: center;
-    }
+   
+   grid-template-rows: 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem 5rem;
+
+   grid-template-columns: 1fr ;
+   padding: 5rem 1rem;
+}
+
   }
   
 

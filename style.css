@@ -129,8 +129,8 @@ button{
     font-family: var(--font-family_lexend_deca);
     width: 240px;
     height: 64px;
+    transition: 300ms ease-in-out;
 }
-
 .card-one button{
     color: var(--bright-orange);
 }
@@ -140,12 +140,20 @@ button{
 .card-three button{
     color: var(--very-dark-cyan);
 }
+button:hover{
+    
+    border: 1px solid #f0f0f0;
+    background-color: transparent;
+    color: #f0f0f0!important;
+}
 @media screen and (max-width: 550px) {
     .container{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* width: 100%; */
+        align-items:center ;
+        width: 100%;
+        padding: 1rem 0;
         
         /* margin: 1rem auto; */
 }
