@@ -145,10 +145,18 @@ button{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        /* width: 100%; */
         
-        margin: 1rem auto;
+        /* margin: 1rem auto; */
 }
+.topnav{
+    justify-content: center;
+}
+
+.topnav a{
+    justify-content: center;
+}
+
 .card{
     height: 550px; 
     width: 300px;

@@ -90,9 +90,22 @@ body{
      grid-area: e;
  }
 
- @media (max-width: 800px) {
-    .topnav {
+ @media screen and (max-width: 800px){ 
+
+ }
+     
+ 
+
+     .topnav { 
       justify-content: center;
+
+    }
+     .topnav a{ 
+        justify-content: center;
+    }
+     main{ 
+        flex-direction: row;
+        justify-content: center;
     }
   }
   
