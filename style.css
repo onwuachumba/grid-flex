@@ -38,10 +38,10 @@ body{
   font-size: var(--font-size);  
 }
 
-.topnav {
+.thenav {
     overflow: hidden;
-    background-color: #202124;
-    color: #f0f0f0;
+    background-color: rgb(22, 22, 24);
+    color: rgb(241, 233, 233)
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: flex-end;
@@ -49,13 +49,13 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: var(--font-family_lexend_deca);
   }
 
-  .topnav a {
+  .thenav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: rgba(219, 213, 213, 0.877);
     text-align: center;
     padding: 10px 30px;
     text-decoration: none;
@@ -157,11 +157,11 @@ button:hover{
         
         /* margin: 1rem auto; */
 }
-.topnav{
+.thenav{
     justify-content: center;
 }
 
-.topnav a{
+.thenav a{
     justify-content: center;
 }
 
